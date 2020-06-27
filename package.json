@@ -1,0 +1,96 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "beerchaind-rpc@git+https://github.com/beerchain/beerchaind-rpc.git#master",
+        "scope": null,
+        "escapedName": "beerchaind-rpc",
+        "name": "beerchaind-rpc",
+        "rawSpec": "git+https://github.com/beerchain/beerchaind-rpc.git#master",
+        "spec": "git+https://github.com/beerchain/beerchaind-rpc.git#master",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:beerchain/beerchaind-rpc.git#master",
+          "sshUrl": "git+ssh://git@github.com/beerchain/beerchaind-rpc.git#master",
+          "httpsUrl": "git+https://github.com/beerchain/beerchaind-rpc.git#master",
+          "gitUrl": "git://github.com/beerchain/beerchaind-rpc.git#master",
+          "shortcut": "github:beerchain/beerchaind-rpc#master",
+          "directUrl": "https://raw.githubusercontent.com/beerchain/beerchaind-rpc/master/package.json"
+        }
+      },
+      "/root/mynode/node_modules/beerchaincore-node"
+    ],
+    [
+      "beerchaind-rpc@git+https://github.com/beerchain/beerchaind-rpc.git#master",
+      "/root/mynode/node_modules/beerchaincore-node"
+    ]
+  ],
+  "_from": "git+https://github.com/beerchain/beerchaind-rpc.git#master",
+  "_id": "beerchaind-rpc@0.0.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/beerchaind-rpc",
+  "_phantomChildren": {},
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/beerchain/beerchaind-rpc/master/package.json",
+      "gitUrl": "git://github.com/beerchain/beerchaind-rpc.git#master",
+      "httpsUrl": "git+https://github.com/beerchain/beerchaind-rpc.git#master",
+      "shortcut": "github:beerchain/beerchaind-rpc#master",
+      "ssh": "git@github.com:beerchain/beerchaind-rpc.git#master",
+      "sshUrl": "git+ssh://git@github.com/beerchain/beerchaind-rpc.git#master",
+      "type": "github"
+    },
+    "name": "beerchaind-rpc",
+    "raw": "beerchaind-rpc@git+https://github.com/beerchain/beerchaind-rpc.git#master",
+    "rawSpec": "git+https://github.com/beerchain/beerchaind-rpc.git#master",
+    "scope": null,
+    "spec": "git+https://github.com/beerchain/beerchaind-rpc.git#master",
+    "type": "hosted"
+  },
+  "_requiredBy": [
+    "/beerchaincore-node"
+  ],
+  "_resolved": "git+https://github.com/beerchain/beerchaind-rpc.git#bb98b1d3d2efb020b995158d995c134bf6ac2b44",
+  "_shasum": "199e7548775b5c0a5321830e178214fd7dd33a60",
+  "_shrinkwrap": null,
+  "_spec": "beerchaind-rpc@git+https://github.com/beerchain/beerchaind-rpc.git#master",
+  "_where": "/root/mynode/node_modules/beerchaincore-node",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/beerchain/beerchaind-rpc/issues"
+  },
+  "contributors": [],
+  "dependencies": {},
+  "description": "Beerchain Client Library to connect to Beerchain Core via RPC",
+  "devDependencies": {
+    "async": "^0.9.0",
+    "chai": "^1.10.0",
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2"
+  },
+  "directories": {},
+  "gitHead": "f98addd051cb74acd9afffa7c88f43af8d6cda37",
+  "homepage": "https://github.com/beerchain/beerchaind-rpc",
+  "keywords": [
+    "beerchain",
+    "rpc"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "beerchaind-rpc",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beerchain/beerchaind-rpc.git"
+  },
+  "scripts": {
+    "coverage": "istanbul cover node_modules/.bin/_mocha -- --recursive",
+    "test": "mocha test -R spec"
+  },
+  "version": "0.0.3"
+}
